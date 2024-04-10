@@ -1,8 +1,4 @@
-# SampleCrud
-Sample Crud php file for COREWARE mini examination/code review.
-
-
-# To test the php file.
+To test the php file.
 
 1) open phpmyadmin on your browser. 
 2) create new database "testdb".
