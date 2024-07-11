@@ -1,6 +1,6 @@
 # SampleCrud
 Sample Crud php file for COREWARE mini examination/code review.
-
+Aside from PHP,. i also used AJAX here to make the form asynchronous.
 
 # To test the php file.
 
