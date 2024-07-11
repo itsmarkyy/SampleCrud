@@ -1,11 +1,10 @@
 <?php 
 
-$servername = "localhost";
-$dbusername = "root";
-$dbpass = "";
-$dbname = "testdb";
+require("settings.php");
 
-$conn = new mysqli($servername,$dbusername,$dbpass,$dbname);
+$db = new DatabaseConfig();
+
+$conn = $db->getDBConnection();
 
 if ($conn -> errno) {
   echo "Failed to connect to MySQL: " . $conn -> connect_error;
